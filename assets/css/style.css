@@ -1,0 +1,552 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spinnaker&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Spinnaker", sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/assets/images/ganapathy-kumar-GLmhbqbn1WA-unsplash\ 1.jpg);
+  color: white;
+  text-transform: uppercase;
+  align-items: center;
+}
+.header--nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 75px;
+  padding-left: 210px;
+  align-items: center;
+}
+.header--nav .div {
+  gap: 100vh;
+  margin-right: 240px;
+  align-items: center;
+}
+.header--nav .div img {
+  margin-right: 20px;
+}
+.header .container--div {
+  margin-left: 500px;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.header .container--div div {
+  font-size: 20px;
+  font-weight: 100px;
+  margin-left: 60px;
+  min-height: 100px;
+}
+.header .container--div p {
+  margin-right: 130px;
+  padding-top: 100px;
+  font-size: 20px;
+}
+.header .Gradient {
+  width: 1687px;
+  height: 445px;
+  padding-top: 150px;
+}
+
+.main {
+  background-color: #011627;
+}
+.main--container {
+  height: 361px;
+  color: white;
+  margin-left: 359px;
+  display: flex;
+}
+.main--container h1 {
+  font-size: 67px;
+}
+.main--container img {
+  height: 24px;
+  margin-left: 19px;
+  align-items: center;
+  margin-top: 33px;
+}
+.main--container p {
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 23px;
+  font-size: 10px;
+}
+.main--container .content {
+  color: #849099;
+  display: flex;
+  align-items: center;
+  gap: 190px;
+  margin-top: -90px;
+  font-size: 18px;
+  margin-left: -700px;
+}
+.main .foto {
+  margin-left: 340px;
+  margin-top: -110px;
+  border-radius: 12px;
+  position: relative;
+}
+.main .foto--image {
+  z-index: 2;
+  position: sticky;
+}
+.main .foto .Slider {
+  margin-top: -79px;
+  margin-left: 323px;
+  z-index: 3;
+  position: sticky;
+}
+.main .foto .dots {
+  margin-top: -220px;
+  margin-left: -55px;
+  z-index: 0;
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+}
+.main .line {
+  margin-left: 250px;
+}
+.main .grand {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: -350px;
+  margin-left: 300px;
+  z-index: 4;
+}
+.main .Adventure {
+  color: white;
+  margin-left: 900px;
+  height: 600px;
+  margin-top: -600px;
+}
+.main .Adventure h1 {
+  font-size: 50px;
+  height: 100px;
+}
+.main .Adventure p {
+  height: 250px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.main .Adventure a,
+.main .Adventure p {
+  height: 50px;
+  font-size: 10px;
+}
+.main .icon {
+  margin-left: 1400px;
+}
+.main .icon h6 {
+  color: white;
+  font-size: 10px;
+  height: 20px;
+}
+.main .icon .Gimmick {
+  margin-left: -50px;
+  margin-top: -25px;
+}
+
+.section {
+  background-color: #011627;
+  color: white;
+}
+.section--div {
+  padding-top: 290px;
+  padding-left: 261px;
+  height: auto;
+}
+.section--div h1 {
+  font-size: 49px;
+  font-family: "Playfair Display", serif;
+}
+.section--div p {
+  margin-top: 20px;
+}
+.section--div .btn {
+  width: 282px;
+  height: 65px;
+  font-size: 10px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  gap: 100px;
+  background-color: #00c9e0;
+  border: #00c9e0;
+  margin-top: 38px;
+}
+.section .şekil {
+  display: flex;
+  margin-left: 650px;
+  margin-block: -480px;
+  height: 395px;
+}
+.section .şekil1 {
+  display: flex;
+  margin-top: 480px;
+  margin-left: 650px;
+}
+.section .dots2 {
+  padding-left: 7px;
+  height: 470px;
+  margin-top: -180px;
+}
+
+.card--div {
+  background-color: #011627;
+  color: white;
+  font-family: "Alegreya Sans SC", sans-serif;
+  height: 1600px;
+}
+.card--div h1 {
+  margin-left: 600px;
+  padding-top: 200px;
+  font-size: 60px;
+}
+.card--div p {
+  margin-left: 680px;
+  margin-top: 31px;
+  font-size: 20px;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+.card--div .card {
+  margin-left: 300px;
+  margin-top: 100px;
+  background: #02223b;
+  width: 504px;
+  height: 510px;
+  display: flex;
+}
+.card--div .card h5 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 75px;
+  display: flex;
+}
+.card--div .card img {
+  margin-left: 80px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+.card--div .text {
+  margin-left: 420px;
+  margin-top: -400px;
+  height: 1000px;
+  color: #687b8a;
+}
+.card--div .text .text1 {
+  padding-top: 20px;
+}
+.card--div .text .text2 {
+  padding-top: 20px;
+}
+.card--div .text .text3 {
+  padding-top: 20px;
+}
+.card--div .text .text4 {
+  padding-top: 20px;
+}
+.card--div .text .text5 {
+  padding-top: 20px;
+}
+.card--div .text .Mask {
+  margin-top: 30px;
+  height: 80px;
+  width: 80px;
+}
+.card--div .text h3 {
+  margin-left: 100px;
+  color: white;
+  font-size: 10px;
+  margin-top: -30px;
+  height: 50px;
+}
+.card--div .card2 {
+  margin-left: 400px;
+  margin-top: -420px;
+  background: #02223b;
+  width: 504px;
+  height: 510px;
+  display: flex;
+}
+.card--div .card2 h5 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 75px;
+  display: flex;
+  color: white;
+}
+.card--div .card2 img {
+  margin-left: 80px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+.card--div .text12 {
+  margin-left: 520px;
+  margin-top: -400px;
+  height: 1000px;
+  color: #687b8a;
+}
+.card--div .text12 .text1 {
+  padding-top: 20px;
+}
+.card--div .text12 .text2 {
+  padding-top: 20px;
+}
+.card--div .text12 .text3 {
+  padding-top: 20px;
+}
+.card--div .text12 .text4 {
+  padding-top: 20px;
+}
+.card--div .text12 .text5 {
+  padding-top: 20px;
+}
+.card--div .text12 .Mask {
+  margin-top: 30px;
+  height: 80px;
+  width: 80px;
+}
+.card--div .text12 h3 {
+  margin-left: 100px;
+  color: white;
+  font-size: 10px;
+  margin-top: -30px;
+  height: 50px;
+}
+.card--div .card3 {
+  margin-left: 300px;
+  margin-top: -570px;
+  background: #02223b;
+  width: 504px;
+  height: 510px;
+  display: flex;
+}
+.card--div .card3 h5 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 75px;
+  display: flex;
+  color: white;
+}
+.card--div .card3 img {
+  margin-left: 80px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+.card--div .text14 {
+  margin-left: 420px;
+  margin-top: -400px;
+  height: 1000px;
+  color: #687b8a;
+}
+.card--div .text14 .text1 {
+  padding-top: 20px;
+}
+.card--div .text14 .text2 {
+  padding-top: 20px;
+}
+.card--div .text14 .text3 {
+  padding-top: 20px;
+}
+.card--div .text14 .text4 {
+  padding-top: 20px;
+}
+.card--div .text14 .text5 {
+  padding-top: 20px;
+}
+.card--div .text14 .Mask {
+  margin-top: 30px;
+  height: 80px;
+  width: 80px;
+}
+.card--div .text14 h3 {
+  margin-left: 100px;
+  color: white;
+  font-size: 10px;
+  margin-top: -30px;
+  height: 50px;
+}
+.card--div .card6 {
+  margin-left: 820px;
+  margin-top: -1110px;
+  background: #02223b;
+  width: 504px;
+  height: 510px;
+  display: flex;
+}
+.card--div .card6 h5 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 75px;
+  display: flex;
+  color: white;
+}
+.card--div .card6 img {
+  margin-left: 80px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+.card--div .text18 {
+  margin-left: 950px;
+  margin-top: -400px;
+  height: 1000px;
+  color: #687b8a;
+}
+.card--div .text18 .text1 {
+  padding-top: 20px;
+}
+.card--div .text18 .text2 {
+  padding-top: 20px;
+}
+.card--div .text18 .text3 {
+  padding-top: 20px;
+}
+.card--div .text18 .text4 {
+  padding-top: 20px;
+}
+.card--div .text18 .text5 {
+  padding-top: 20px;
+}
+.card--div .text18 .Mask {
+  margin-top: 30px;
+  height: 80px;
+  width: 80px;
+}
+.card--div .text18 h3 {
+  margin-left: 100px;
+  color: white;
+  font-size: 10px;
+  margin-top: -30px;
+  height: 50px;
+}
+
+footer {
+  background-color: #011627;
+  color: white;
+  height: 9 0px;
+}
+footer h2 {
+  margin-left: 650px;
+  font-family: "Kalnia Glaze", serif;
+  font-size: 59px;
+}
+footer .p1 {
+  margin-left: 690px;
+  margin-top: 20px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 20px;
+}
+footer p {
+  margin-left: 750px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+footer img {
+  margin-left: 800px;
+  margin-top: 100px;
+}
+footer #text {
+  font-size: 9px;
+  font-family: "Kalnia Glaze", serif;
+  align-items: center;
+}
+footer #text .text1 {
+  margin-left: 420px;
+  margin-top: 97px;
+}
+footer #text .text2 {
+  margin-left: 600px;
+  margin-top: -20px;
+}
+footer #text .text3 {
+  margin-left: 750px;
+  margin-top: -20px;
+}
+footer #text .text4 {
+  margin-left: 930px;
+  margin-top: -20px;
+}
+footer #text .text5 {
+  margin-left: 1200px;
+  margin-top: -20px;
+}
+footer .paragrf1 {
+  color: #616d78;
+  align-items: center;
+}
+footer .paragrf1 .para1 {
+  margin-left: -350px;
+  margin-top: -10px;
+}
+footer .paragrf1 .para2 {
+  margin-top: -110px;
+  margin-left: -160px;
+}
+footer .paragrf1 .para3 {
+  margin-top: -150px;
+  margin-left: -20px;
+}
+footer .paragrf1 .para4 {
+  margin-left: 180px;
+  margin-top: -150px;
+}
+footer .paragrf1 .para5 {
+  display: flex;
+}
+footer .paragrf1 .para5 .instagram {
+  margin-left: 400px;
+  margin-top: -200px;
+}
+footer .paragrf1 .para5 .facebook {
+  margin-left: -780px;
+  margin-top: -200px;
+}
+footer .paragrf1 .para5 .twitter {
+  margin-left: -780px;
+  margin-top: -200px;
+}
+footer .NR p {
+  margin-top: 150px;
+  margin-left: 590px;
+}
+footer .NR h1 {
+  padding-left: 800px;
+  padding-top: 100px;
+}
+
+button {
+  background: transparent;
+  height: 50px;
+  width: 120px;
+  border-radius: 30px;
+  font-size: 10px;
+  color: white;
+  border: 2px solid black;
+  transition: all 0.5s ease-in-out;
+}
+button:hover {
+  background-color: #00c9e0;
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=style.css.map */

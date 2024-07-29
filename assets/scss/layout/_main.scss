@@ -1,0 +1,113 @@
+.main {
+  background-color: #011627;
+
+  &--container {
+    height: 361px;
+    color: white;
+    margin-left: 359px;
+    display: flex;
+
+    h1 {
+      font-size: 67px;
+    }
+
+    img {
+      height: 24px;
+      margin-left: 19px;
+      align-items: center;
+      margin-top: 33px;
+    }
+
+    p {
+      align-items: center;
+      margin-left: 20px;
+      margin-top: 23px;
+      font-size: 10px;
+    }
+    .content {
+      color: #849099;
+      display: flex;
+      align-items: center;
+      gap: 190px;
+      margin-top: -90px;
+      font-size: 18px;
+      margin-left: -700px;
+    }
+  }
+  .foto {
+    margin-left: 340px;
+    margin-top: -110px;
+    border-radius: 12px;
+    position: relative;
+
+    &--image {
+      z-index: 2;
+      position: sticky;
+    }
+
+    .Slider {
+      margin-top: -79px;
+      margin-left: 323px;
+      z-index: 3;
+      position: sticky;
+    }
+
+    .dots {
+      margin-top: -220px;
+      margin-left: -55px;
+      z-index: 0;
+      position: absolute;
+      left: -20px;
+      bottom: -20px;
+    }
+  }
+
+  .line {
+    margin-left: 250px;
+  }
+
+  .grand {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: -350px;
+    margin-left: 300px;
+    z-index: 4;
+  }
+  .Adventure {
+    color: white;
+    margin-left: 900px;
+    height: 600px;
+    margin-top: -600px;
+
+    h1 {
+      font-size: 50px;
+      height: 100px;
+    }
+
+    p {
+      height: 250px;
+      margin-top: 20px;
+      font-size: 10px;
+    }
+
+    a,
+    p {
+      height: 50px;
+      font-size: 10px;
+    }
+  }
+  .icon {
+    margin-left: 1400px;
+
+    h6 {
+      color: white;
+      font-size: 10px;
+      height: 20px;
+    }
+    .Gimmick {
+      margin-left: -50px;
+      margin-top: -25px;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.header {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/assets/images/ganapathy-kumar-GLmhbqbn1WA-unsplash\ 1.jpg);
+  color: white;
+  text-transform: uppercase;
+  align-items: center;
+
+  &--nav {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 75px;
+    padding-left: 210px;
+    align-items: center;
+
+    .div {
+      gap: 100vh;
+      margin-right: 240px;
+      align-items: center;
+
+      img {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .container--div {
+    margin-left: 500px;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    div {
+      font-size: 20px;
+      font-weight: 100px;
+      margin-left: 60px;
+      min-height: 100px;
+    }
+
+    p {
+      margin-right: 130px;
+      padding-top: 100px;
+      font-size: 20px;
+    }
+  }
+  .Gradient {
+    width: 1687px;
+    height: 445px;
+    padding-top: 150px;
+  }
+}
